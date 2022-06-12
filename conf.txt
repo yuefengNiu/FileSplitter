@@ -1,0 +1,12 @@
+	#分割后的小文件存放的目录
+	target_dir = "./parts/"
+	prefix = "chunk"
+	suffix = ".part"
+	#source_file要被分割的文件
+	source_file = "./a.jpg"
+	#从target_dir目录下要组合出来的文件
+	target_file = "./b.jpg"
+	#action值为ReunionFile代表合并，DepartFile代表拆分
+	action = "ReunionFile"
+	#分割的单个文件大小
+	size = "524288000"
