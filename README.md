@@ -3,7 +3,7 @@
 ## 编译不同平台
 ```bash
 # 编译成 Linux
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build xxxx.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build main.go
 # 编译成 Windows
-CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build xxxx.go
+CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build main.go
 ```
